@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "description": "Un ladrón que roba secretos del subconsciente entra en una misión para implantar una idea en la mente de una persona.",
+    "year": 2010,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "The Matrix",
+    "description": "Un hacker descubre la verdadera naturaleza de su realidad y su papel en la guerra contra sus controladores.",
+    "year": 1999,
+    "posterUrl": "https://m.media-amazon.com/images/I/71PfZFFz9yL._AC_SL1000_.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Interstellar",
+    "description": "Un grupo de exploradores viaja a través de un agujero de gusano para asegurar el futuro de la humanidad.",
+    "year": 2014,
+    "posterUrl": "https://m.media-amazon.com/images/I/91vIHsL-zjL._AC_UF894,1000_QL80_.jpg"
+  },
+  {
+    "id": 4,
+    "title": "The Dark Knight",
+    "description": "Batman enfrenta al Joker, un criminal que busca sumir a Gotham en el caos.",
+    "year": 2008,
+    "posterUrl": "https://m.media-amazon.com/images/M/MV5BZDdkYjIyNTEtYjlkZC00NDdlLTgxYmUtMzI3NjM5YzQ0NjY5XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "description": "Miles Morales se convierte en Spider-Man y conoce versiones alternativas del héroe.",
+    "year": 2018,
+    "posterUrl": "https://placehold.co/400x600?text=Spider-Verse"
+  },
+  {
+    "id": 6,
+    "title": "Pulp Fiction",
+    "description": "Varias historias criminales se entrelazan en Los Ángeles.",
+    "year": 1994,
+    "posterUrl": "https://placehold.co/400x600?text=Pulp+Fiction"
+  },
+  {
+    "id": 7,
+    "title": "Avatar",
+    "description": "Un exmarine viaja al planeta Pandora y se ve envuelto en un conflicto entre humanos y nativos.",
+    "year": 2009,
+    "posterUrl": "https://placehold.co/400x600?text=Avatar"
+  },
+  {
+    "id": 8,
+    "title": "Gladiator",
+    "description": "Un general romano traicionado busca venganza como gladiador.",
+    "year": 2000,
+    "posterUrl": "https://placehold.co/400x600?text=Gladiator"
+  }
+]
