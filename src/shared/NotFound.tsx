@@ -1,3 +1,6 @@
+/**
+ * Componente que se muestra cuando la ruta solicitada no existe (Error 404).
+ */
 export default function NotFound() {
   return (
     <>

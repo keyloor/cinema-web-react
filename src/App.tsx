@@ -9,6 +9,10 @@ import { Movies } from "./features/Movies/Movie";
 import MovieDetails from "./features/Movies/MovieDetails";
 import Profile from "./features/Profile/Profile";
 
+/**
+ * Componente raíz de la aplicación.
+ * Define la estructura global, el enrutamiento (React Router) y los componentes compartidos (Header, Footer).
+ */
 function App() {
   return (
     <BrowserRouter>

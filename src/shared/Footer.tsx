@@ -1,3 +1,7 @@
+/**
+ * Componente funcional para el pie de página (Footer).
+ * Muestra información de copyright y créditos.
+ */
 export function Footer() {
   return (
     <footer className="bg-black/50 backdrop-blur-md border-t border-white/5 py-8 mt-auto shadow-inner text-center">
