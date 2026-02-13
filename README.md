@@ -1,5 +1,7 @@
 # Cinema Web React Application
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://cinema-web-react-swart.vercel.app)
+
 ## Description
 
 This project is a web application developed in **React** that allows movie enthusiasts to view and manage information about their favorite films and user profiles. The application focuses on providing a clear, simple, and responsive user experience for browsing movie catalogs.
