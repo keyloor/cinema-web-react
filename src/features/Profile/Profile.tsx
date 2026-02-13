@@ -61,7 +61,6 @@ const Profile = () => {
         </div>
         <div>
           <h1 className="text-3xl font-bold text-white mb-1">{user.username}</h1>
-          <p className="text-neutral-400">Miembro desde 2026</p>
         </div>
       </div>
 

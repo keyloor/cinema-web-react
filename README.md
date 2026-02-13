@@ -1,73 +1,97 @@
-# React + TypeScript + Vite
+# Cinema Web React Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This project is a web application developed in **React** that allows movie enthusiasts to view and manage information about their favorite films and user profiles. The application focuses on providing a clear, simple, and responsive user experience for browsing movie catalogs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project was developed as part of the course **IF0004 – Desarrollo de Software II**.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Objective
 
-## Expanding the ESLint configuration
+Develop a React-based web application that enables users to visualize and manage movie-related information through a set of functional screens, applying good development practices, version control, and modern UI/UX principles.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Technologies
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **Movie Catalog**: Browse lists of movies with titles, years, and posters.
+- **Movie Details**: View detailed information about specific movies.
+- **User Profile**: Manage user information locally (persisted via LocalStorage).
+- **Responsive Design**: Optimized for different screen sizes using Tailwind CSS.
+- **Navigation**: Smooth routing between sections using React Router.
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## Project Management (Jira)
+
+- The project is managed using **Jira Software**.
+- A backlog with user stories is defined following the format:
+  - _As a [role], I want [action], so that [benefit]_
+- Each story includes:
+  - Acceptance criteria
+  - Estimation (Story Points)
+  - Assigned developer
+  - Subtasks
+- Workflow used:
+  - To Do → In Progress → QA → Done
+- QA evidence is documented within Jira stories.
+
+---
+
+## Version Control
+
+- Git is used for version control.
+- The repository includes:
+  - A main branch
+  - Feature branches
+  - Pull Requests with code review
+- Commits represent real progress throughout development.
+
+---
+
+## How to Run the Project
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the application in development mode:
+   ```bash
+   npm run dev
+   ```
+
+---
+
+## Team Members
+
+- **Keylor Barrantes Gómez**
+- **Juan Pablo Jiménez Vargas**
+- **Sebastian Marín Fernandez**
+- **Diego Arce Muñoz**
+- **Andrea González Rodríguez**
+
+---
+
+## Notes
+
+- This project does not include a backend; all data is simulated or handled locally.
+- Profile data is persisted using the browser's **LocalStorage**.
+- The application code is written entirely in **English**, as required.
