@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 export function MovieCard(props: Movie) {
   return (
     <Link
+      data-cy="movie-card"
       to={`/movies/${props.id}`}
       className="group relative bg-[#1f1f1f] rounded-lg overflow-hidden transition-all duration-300 block hover:-translate-y-1 hover:shadow-xl hover:shadow-black/50 border border-transparent hover:border-white/20"
     >

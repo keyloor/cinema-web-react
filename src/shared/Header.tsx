@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     // Header con efecto "Glassmorphism" sutil
-    <header className="sticky top-0 z-50 bg-black/50 backdrop-blur-md border-b border-white/5 shadow-md">
+    <header data-cy="header" className="sticky top-0 z-50 bg-black/50 backdrop-blur-md border-b border-white/5 shadow-md">
       <nav className="container mx-auto px-4 h-20 flex items-center justify-between">
         {/* Logotipo / Nombre de la App limpio */}
         <Link
