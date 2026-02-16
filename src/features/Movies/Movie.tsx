@@ -17,7 +17,7 @@ export function Movies() {
     getMovies()
       .then(setMovies)
       .finally(() => setLoading(false));
-  }, [movies]);
+  }, []);
 
   // Vista de carga mientras la promesa se resuelve
   if (loading)
