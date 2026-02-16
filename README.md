@@ -1,5 +1,7 @@
 # Cinema Web React Application
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=vercel)](https://cinema-web-react-swart.vercel.app)
+
 ## Description
 
 This project is a web application developed in **React** that allows movie enthusiasts to view and manage information about their favorite films and user profiles. The application focuses on providing a clear, simple, and responsive user experience for browsing movie catalogs.
@@ -25,7 +27,6 @@ Develop a React-based web application that enables users to visualize and manage
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![Jira](https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white)
 
 ---
 
@@ -36,22 +37,6 @@ Develop a React-based web application that enables users to visualize and manage
 - **User Profile**: Manage user information locally (persisted via LocalStorage).
 - **Responsive Design**: Optimized for different screen sizes using Tailwind CSS.
 - **Navigation**: Smooth routing between sections using React Router.
-
----
-
-## Project Management (Jira)
-
-- The project is managed using **Jira Software**.
-- A backlog with user stories is defined following the format:
-  - _As a [role], I want [action], so that [benefit]_
-- Each story includes:
-  - Acceptance criteria
-  - Estimation (Story Points)
-  - Assigned developer
-  - Subtasks
-- Workflow used:
-  - To Do → In Progress → QA → Done
-- QA evidence is documented within Jira stories.
 
 ---
 
@@ -83,10 +68,6 @@ Develop a React-based web application that enables users to visualize and manage
 ## Team Members
 
 - **Keylor Barrantes Gómez**
-- **Juan Pablo Jiménez Vargas**
-- **Sebastian Marín Fernandez**
-- **Diego Arce Muñoz**
-- **Andrea González Rodríguez**
 
 ---
 
@@ -94,4 +75,4 @@ Develop a React-based web application that enables users to visualize and manage
 
 - This project does not include a backend; all data is simulated or handled locally.
 - Profile data is persisted using the browser's **LocalStorage**.
-- The application code is written entirely in **English**, as required.
+- The application code is written entirely in **English**.
