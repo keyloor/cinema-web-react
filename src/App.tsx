@@ -5,9 +5,8 @@ import Header from "./shared/Header";
 import { Footer } from "./shared/Footer";
 import NotFound from "./shared/NotFound";
 import { Home } from "./features/Home/Home";
-import { Movies } from "./features/Movies/Movie";
-import MovieDetails from "./features/Movies/MovieDetails";
-import Profile from "./features/Profile/Profile";
+
+import Contact from "./features/Contact/Contact";
 
 /**
  * Componente raíz de la aplicación.
@@ -16,16 +15,13 @@ import Profile from "./features/Profile/Profile";
 function App() {
   return (
     <BrowserRouter>
-      <div className="min-h-screen bg-[#141414] text-slate-100 flex flex-col font-sans">
+      <div className="relative flex min-h-screen w-full flex-col bg-white overflow-x-hidden text-slate-900 font-display">
         <Header />
 
-        <main className="flex-grow container mx-auto px-4 py-8 relative z-10">
+        <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/home" element={<Home />} />
-            <Route path="/movies" element={<Movies />} />
-            <Route path="/movies/:id" element={<MovieDetails />} />
-            <Route path="/profile" element={<Profile />} />
+            <Route path="/contacto" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
